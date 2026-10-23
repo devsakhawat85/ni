@@ -1,0 +1,6 @@
+{
+  "name": "Loqelo – Everything Your Place Needs",
+  "description": "Pre-launch website and waitlist for Loqelo. The modern platform connecting customers with trusted service providers for home, garden, and office. Launching February 2027.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
