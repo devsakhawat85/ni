@@ -192,7 +192,7 @@ export const PlatformScreenshots: React.FC<PlatformScreenshotsProps> = ({
                   <div className="flex items-center gap-3 flex-wrap">
                     <div className="flex items-center gap-2 bg-white p-1.5 rounded-lg border border-slate-200 text-xs font-medium text-slate-700 shadow-xs">
                       <img
-                        src="/src/assets/images/service_house_cleaning_1792777417409.jpg"
+                        src="/assets/images/service_house_cleaning_1792777417409.jpg"
                         alt="living-room.jpg"
                         className="w-8 h-8 rounded-md object-cover"
                       />
@@ -200,7 +200,7 @@ export const PlatformScreenshots: React.FC<PlatformScreenshotsProps> = ({
                     </div>
                     <div className="flex items-center gap-2 bg-white p-1.5 rounded-lg border border-slate-200 text-xs font-medium text-slate-700 shadow-xs">
                       <img
-                        src="/src/assets/images/service_garden_landscaping_1792777417654.jpg"
+                        src="/assets/images/service_garden_landscaping_1792777417654.jpg"
                         alt="garden-lawn.jpg"
                         className="w-8 h-8 rounded-md object-cover"
                       />
@@ -472,7 +472,7 @@ export const PlatformScreenshots: React.FC<PlatformScreenshotsProps> = ({
 
                     <div className="flex gap-3 mb-3">
                       <img
-                        src="/src/assets/images/service_garden_landscaping_1792777417654.jpg"
+                        src="/assets/images/service_garden_landscaping_1792777417654.jpg"
                         alt="Lawn care & hedge trimming"
                         className="w-20 h-16 rounded-xl object-cover shrink-0 shadow-xs border border-slate-200"
                       />

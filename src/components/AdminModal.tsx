@@ -436,8 +436,21 @@ export const AdminModal: React.FC<AdminModalProps> = ({ isOpen, onClose }) => {
                   100% Free / Low-Maintenance Solution Overview
                 </h3>
                 <p className="text-xs text-teal-900 leading-relaxed">
-                  As requested in section 6 & 7: This landing page requires <strong>$0 in paid software licenses or subscriptions</strong>. It runs on a blazing fast React + Vite static bundle with zero recurring server fees, fully self-hostable on Cloud Run, Vercel, Netlify, or standard Apache/Nginx web servers.
+                  As requested in section 6 & 7: This landing page requires <strong>$0 in paid software licenses or subscriptions</strong>. It runs on a blazing fast React + Vite static bundle with zero recurring server fees, fully configured with <code className="bg-white/80 px-1 py-0.5 rounded text-teal-900 font-mono">netlify.toml</code> and <code className="bg-white/80 px-1 py-0.5 rounded text-teal-900 font-mono">_redirects</code> for instant 1-click deployment on <strong>Netlify via GitHub</strong>.
                 </p>
+              </div>
+
+              <div className="border border-slate-200 rounded-2xl p-5 space-y-4">
+                <h4 className="font-bold text-slate-900 text-base">
+                  0. Deploying to Netlify via GitHub (Quick Steps)
+                </h4>
+                <ol className="list-decimal pl-5 space-y-1.5 text-slate-600">
+                  <li>Push this project to your GitHub repository (<code className="bg-slate-100 px-1 py-0.5 rounded">git push origin main</code>).</li>
+                  <li>Log in to <strong className="text-slate-800">Netlify</strong> and click <strong>"Add new site" → "Import an existing project"</strong>.</li>
+                  <li>Choose <strong>GitHub</strong> and select your Loqelo repository.</li>
+                  <li>Netlify automatically detects <code className="bg-slate-100 px-1 py-0.5 rounded">netlify.toml</code>: Build command <code className="bg-slate-100 px-1 py-0.5 rounded font-mono">npm run build</code>, Publish directory <code className="bg-slate-100 px-1 py-0.5 rounded font-mono">dist</code>.</li>
+                  <li>Click <strong>"Deploy"</strong>. Your website will be live globally in under 60 seconds with free SSL!</li>
+                </ol>
               </div>
 
               <div className="border border-slate-200 rounded-2xl p-5 space-y-4">

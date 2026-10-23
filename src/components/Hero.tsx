@@ -137,7 +137,7 @@ export const Hero: React.FC<HeroProps> = ({ currentLang, onOpenWaitlist }) => {
         <div className="max-w-5xl mx-auto mb-12">
           <div className="relative rounded-3xl overflow-hidden border border-slate-200/80 shadow-2xl shadow-slate-200/70 group">
             <img
-              src="/src/assets/images/hero_home_garden_property_1792777850421.jpg"
+              src="/assets/images/hero_home_garden_property_1792777850421.jpg"
               alt="Loqelo – Everything your place needs: Home, Garden, Office"
               className="w-full h-[280px] sm:h-[400px] md:h-[480px] object-cover group-hover:scale-[1.02] transition-transform duration-700"
               referrerPolicy="no-referrer"

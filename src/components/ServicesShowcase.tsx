@@ -22,7 +22,7 @@ const SERVICES: ServiceCard[] = [
     category: 'Home',
     description:
       'Regular maintenance, deep cleaning, move-out turnovers, and post-renovation spotless sanitation.',
-    imageSrc: '/src/assets/images/service_house_cleaning_1792777417409.jpg',
+    imageSrc: '/assets/images/service_house_cleaning_1792777417409.jpg',
     popularTasks: ['Deep house cleaning', 'Window washing', 'Kitchen & oven detailing'],
     avgQuotes: 'Under 2 hours',
   },
@@ -31,7 +31,7 @@ const SERVICES: ServiceCard[] = [
     category: 'Garden',
     description:
       'Hedge trimming, lawn mowing, seasonal yard cleanup, tree pruning, and green waste disposal.',
-    imageSrc: '/src/assets/images/service_garden_landscaping_1792777417654.jpg',
+    imageSrc: '/assets/images/service_garden_landscaping_1792777417654.jpg',
     popularTasks: ['Hedge & bush trimming', 'Lawn care & aeration', 'Green waste removal'],
     avgQuotes: 'Under 3 hours',
   },
@@ -40,7 +40,7 @@ const SERVICES: ServiceCard[] = [
     category: 'Repairs',
     description:
       'Leak detection, pipe repairs, tap installation, lighting replacement, and domestic installations.',
-    imageSrc: '/src/assets/images/service_plumbing_renovation_1792777418304.jpg',
+    imageSrc: '/assets/images/service_plumbing_renovation_1792777418304.jpg',
     popularTasks: ['Pipe leak repairs', 'Bathroom sink & taps', 'Electrical fixtures'],
     avgQuotes: 'Under 1 hour',
   },
@@ -49,7 +49,7 @@ const SERVICES: ServiceCard[] = [
     category: 'Office',
     description:
       'Commercial cleaning, facade and high-reach window washing, carpet care, and scheduled office upkeep.',
-    imageSrc: '/src/assets/images/service_office_maintenance_1792777418484.jpg',
+    imageSrc: '/assets/images/service_office_maintenance_1792777418484.jpg',
     popularTasks: ['High-reach window washing', 'Commercial cleaning', 'Property maintenance'],
     avgQuotes: 'Same day',
   },
